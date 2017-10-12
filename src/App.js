@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Message from './Message.js';
 import openSocket from 'socket.io-client';
-const  socket = openSocket('http://http://tvde1-chat-server.herokuapp.com/');
+const  socket = openSocket('http://localhost:8000/');
 
 class App extends Component {
     constructor(props) {
